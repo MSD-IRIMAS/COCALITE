@@ -1,8 +1,6 @@
 # Project Overview
 
-The objective of this project is to enhance performance and maintain computational efficiency by integrating engineered feature vectors with features learned from deep learning models. The project explores various methodologies, including the concatenation of Catch22 features with pre-trained LITE models, and evaluates the impact of these strategies on time series classification tasks.
-
-This project is implemented in Python and utilizes several libraries, including TensorFlow for deep learning, scikit-learn for machine learning utilities, aeon for time series analysis, and Catch22 for feature extraction.
+The objective of this project is to enhance performance and maintain computational efficiency by integrating engineered feature vectors with features learned from deep learning models. The project explores various methodologies, and evaluates the impact of these strategies on time series classification tasks.
 
 ## Requirements
 
@@ -16,7 +14,6 @@ Please ensure the following Python packages are installed:
 - numpy==1.23.5
 - matplotlib==3.9.1
 
-For a complete list of dependencies, refer to the `requirements.txt` file.
 
 ## Configuration
 
