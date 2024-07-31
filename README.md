@@ -4,15 +4,10 @@ The objective of this project is to enhance performance and maintain computation
 
 ## Requirements
 
-Please ensure the following Python packages are installed:
+Please refer to the `requirements.txt` file and install the required packages using:
 
-- PyYAML==5.4.1
-- pandas==2.0.3
-- tensorflow==2.12.0
-- scikit-learn==1.4.0
-- aeon==0.10.0
-- numpy==1.23.5
-- matplotlib==3.9.1
+```bash
+pip install -r requirements.txt
 
 
 ## Configuration
