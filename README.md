@@ -50,6 +50,7 @@ Combines features from the specified datasets using pre-trained models along wit
 
 training: Trains the models on the specified datasets.
 evaluation: Evaluates the performance of fine-tuned models on the datasets.
+
 ### From Scratch
 **Purpose** This approach involves training models from scratch, without utilizing pre-trained weight, starting with initial model parameters.
 
