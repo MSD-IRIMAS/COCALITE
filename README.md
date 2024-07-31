@@ -8,7 +8,7 @@ Please refer to the `requirements.txt` file and install the required packages us
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ## Configuration
 
