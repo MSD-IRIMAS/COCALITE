@@ -60,4 +60,4 @@ training: Trains models from scratch using the specified datasets.<br>
 evaluation: Evaluates the performance of models trained from scratch on the datasets.
 
 ## Contributing
-Contributions are welcome! Please submit issues, pull requests, or suggestions. Ensure that contributions align with the project's goals and adhere to the established coding standards.
+Contributions are welcome! Please submit issues, pull requests, or suggestions. Ensure that contributions align with the project's goals.
