@@ -37,21 +37,21 @@ python main.py
 ```
 ## Approach Descriptions
 ### Concatenation
-Purpose: This approach combines features from different sources to create a unified feature set.
+**Purpose** This approach combines features from different sources to create a unified feature set.
 
 #### Task: concatenate_features
 
 Combines features from the specified datasets using pre-trained models along with pre-computed Catch22 features. It trains and evaluates models based on the value of use_ensemble, which determines whether to ensemble the five models or compute the mean accuracy across models.
 
 ### Fine-Tuning
-Purpose: This approach fine-tunes pre-trained models on new datasets to adapt them to specific tasks.
+**Purpose**: This approach fine-tunes pre-trained models by concatenating Catch22 features with the latent space of the model and then resuming training.
 
 #### Tasks:
 
 training: Trains the models on the specified datasets.
 evaluation: Evaluates the performance of fine-tuned models on the datasets.
 ### From Scratch
-Purpose: This approach involves training models from scratch, without utilizing pre-trained weights, starting with initial model parameters.
+**Purpose** This approach involves training models from scratch, without utilizing pre-trained weight, starting with initial model parameters.
 
 #### Tasks:
 
