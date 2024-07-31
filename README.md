@@ -48,7 +48,7 @@ Combines features from the specified datasets using pre-trained models along wit
 
 #### Tasks:
 
-training: Trains the models on the specified datasets.
+training: Trains the models on the specified datasets.<br>
 evaluation: Evaluates the performance of fine-tuned models on the datasets.
 
 ### From Scratch
@@ -56,7 +56,7 @@ evaluation: Evaluates the performance of fine-tuned models on the datasets.
 
 #### Tasks:
 
-training: Trains models from scratch using the specified datasets.
+training: Trains models from scratch using the specified datasets.<br>
 evaluation: Evaluates the performance of models trained from scratch on the datasets.
 
 ## Contributing
