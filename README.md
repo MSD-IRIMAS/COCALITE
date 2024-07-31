@@ -34,3 +34,29 @@ To start processing datasets according to the specified configuration, execute t
 
 ```bash
 python main.py
+```
+## Approach Descriptions
+### Concatenation
+Purpose: This approach combines features from different sources to create a unified feature set.
+
+#### Task: concatenate_features
+
+Combines features from the specified datasets using pre-trained models along with pre-computed Catch22 features. It trains and evaluates models based on the value of use_ensemble, which determines whether to ensemble the five models or compute the mean accuracy across models.
+
+### Fine-Tuning
+Purpose: This approach fine-tunes pre-trained models on new datasets to adapt them to specific tasks.
+
+#### Tasks:
+
+training: Trains the models on the specified datasets.
+evaluation: Evaluates the performance of fine-tuned models on the datasets.
+### From Scratch
+Purpose: This approach involves training models from scratch, without utilizing pre-trained weights, starting with initial model parameters.
+
+#### Tasks:
+
+training: Trains models from scratch using the specified datasets.
+evaluation: Evaluates the performance of models trained from scratch on the datasets.
+
+## Contributing
+Contributions are welcome! Please submit issues, pull requests, or suggestions. Ensure that contributions align with the project's goals and adhere to the established coding standards.
