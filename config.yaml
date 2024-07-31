@@ -1,0 +1,21 @@
+datasets:
+  - ArrowHead
+  - Car
+  - ...
+
+dataset_repo: "Path/to/datasets_repository"  # Path to the dataset repository
+results_directory: "Path/to/save/results"
+features_directory: "Path/to/catch22_features"
+models_directory: "Path/to/models_repository"
+pretrained_models_directory: "Path/to/pretrained_models_repository"
+
+# Approach to use (choose one of the following)
+approach: "concatenation"  # Options: "concatenation", "finetuning", "from_scratch"
+
+# Task to perform
+task: "concatenate_features"  # Options: "training", "evaluation", "concatenate_features"
+
+# Additional parameters
+tiny_lite: true
+use_catch22: true  # Options: true, false
+use_ensemble: true # Options: true, false
