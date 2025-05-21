@@ -1,4 +1,8 @@
-# Project Overview
+# COCALITE: A Hybrid Model COmbining CAtch22 and LITE for Time Series Classification
+
+This is the source code of our paper "[COCALITE: A Hybrid Model COmbining CAtch22 and LITE for Time Series Classification](https://doi.org/10.1109/BigData62323.2024.10825872)" [[pdf](https://germain-forestier.info/publis/bigdata2024.pdf)] accepted in the [2024 IEEE International Conference on Big Data (BigData)](https://www3.cs.stonybrook.edu/~ieeebigdata2024/) This work was done by [Oumaima Badi](https://www.linkedin.com/in/oumaima-badi-837060237/), [Maxime Devanne](https://maxime-devanne.com/), [Ali Ismail-Fawaz](https://hadifawaz1999.github.io/), [Javidan Abdullayev](https://az.linkedin.com/in/cavidan-abdullayev-83289815b), [Vincent Lemaire](https://fr.linkedin.com/in/vincentlemaire), [Stefano Berretti](https://www.micc.unifi.it/berretti/), [Jonathan Weber](https://www.jonathan-weber.eu/) and [Germain Forestier](https://germain-forestier.info/).
+
+## Project Overview
 
 The objective of this project is to enhance performance and maintain computational efficiency by integrating engineered feature vectors with features learned from deep learning models. The project explores various methodologies, and evaluates the impact of these strategies on time series classification tasks.
 
