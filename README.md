@@ -76,6 +76,19 @@ evaluation: Evaluates the performance of models trained from scratch on the data
 ## Contributing
 Contributions are welcome! Please submit issues, pull requests, or suggestions. Ensure that contributions align with the project's goals.
 
+## Citation
+
+```
+@inproceedings{badi2024cocalite,
+  title={COCALITE: A Hybrid Model COmbining CAtch22 and LITE for Time Series Classification},
+  author={Badi, Oumaima and Devanne, Maxime and Ismail-Fawaz, Ali and Abdullayev, Javidan and Lemaire, Vincent and Berretti, Stefano and Weber, Jonathan and Forestier, Germain},
+  booktitle={2024 IEEE International Conference on Big Data (BigData)},
+  pages={1229--1236},
+  year={2024},
+  organization={IEEE}
+}
+```
+
 ## ACKNOWLEDGMENT
 
 This work was supported by the ANR DELEGATION project (grant ANR-21-CE23-0014) of the French Agence Nationale de la Recherche. The authors would like to acknowledge the High Performance Computing Center of the University of Strasbourg for supporting this work by providing scientific support and access to computing resources. Part of the computing resources were funded by the Equipex Equip@Meso project (Programme Investissements d’Avenir) and the CPER Alsacalcul/Big Data. The authors would also like to thank the creators and providers of the UCR Archive.
