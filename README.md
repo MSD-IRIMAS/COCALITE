@@ -2,6 +2,16 @@
 
 This is the source code of our paper "[COCALITE: A Hybrid Model COmbining CAtch22 and LITE for Time Series Classification](https://doi.org/10.1109/BigData62323.2024.10825872)" [[pdf](https://germain-forestier.info/publis/bigdata2024.pdf)] accepted in the [2024 IEEE International Conference on Big Data (BigData)](https://www3.cs.stonybrook.edu/~ieeebigdata2024/) This work was done by [Oumaima Badi](https://www.linkedin.com/in/oumaima-badi-837060237/), [Maxime Devanne](https://maxime-devanne.com/), [Ali Ismail-Fawaz](https://hadifawaz1999.github.io/), [Javidan Abdullayev](https://az.linkedin.com/in/cavidan-abdullayev-83289815b), [Vincent Lemaire](https://fr.linkedin.com/in/vincentlemaire), [Stefano Berretti](https://www.micc.unifi.it/berretti/), [Jonathan Weber](https://www.jonathan-weber.eu/) and [Germain Forestier](https://germain-forestier.info/).
 
+## Abstract
+
+Time series classification has achieved significant advancements through deep learning models; however, these models often suffer from high complexity and computational costs. To address these challenges while maintaining effectiveness, we introduce COCALITE, an innovative hybrid model that combines the efficient LITE model with an augmented version incorporating Catch22 features during training. COCALITE operates with only 4.7% of the parameters of the state-of-the-art Inception model, significantly reducing computational overhead. By integrating these complementary approaches, COCALITE leverages both effective feature engineering and deep learning techniques to enhance classification accuracy. Our extensive evaluation across 128 datasets from the UCR archive demonstrates that COCALITE achieves competitive performance, offering a compelling solution for resource-constrained environments.
+
+## COCALITE Architecture
+
+<p align="center" width="50%">
+<img src="cocalite-architecture.png" alt="cocalite"/>
+</p>
+
 ## Project Overview
 
 The objective of this project is to enhance performance and maintain computational efficiency by integrating engineered feature vectors with features learned from deep learning models. The project explores various methodologies, and evaluates the impact of these strategies on time series classification tasks.
@@ -65,3 +75,7 @@ evaluation: Evaluates the performance of models trained from scratch on the data
 
 ## Contributing
 Contributions are welcome! Please submit issues, pull requests, or suggestions. Ensure that contributions align with the project's goals.
+
+## ACKNOWLEDGMENT
+
+This work was supported by the ANR DELEGATION project (grant ANR-21-CE23-0014) of the French Agence Nationale de la Recherche. The authors would like to acknowledge the High Performance Computing Center of the University of Strasbourg for supporting this work by providing scientific support and access to computing resources. Part of the computing resources were funded by the Equipex Equip@Meso project (Programme Investissements d’Avenir) and the CPER Alsacalcul/Big Data. The authors would also like to thank the creators and providers of the UCR Archive.
